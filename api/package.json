@@ -1,19 +1,16 @@
 {
   "name": "restaurant-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
+  "version": "1.0.0-alpha.1",
+  "description": "Simple API to manage a database",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "author": "Theotime-Berthod",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "mysql2": "^3.6.2"
-  },
-  "devDependencies": {
+    "mysql": "^2.18.1",
     "nodemon": "^3.0.1"
   }
 }
